@@ -21,7 +21,7 @@ export default function Home() {
                 />
             </span>
             </h4>
-            <p className='py-4'>hdeslkdddddddddddddddddddddddddddddddd</p>
+            <p className='py-4'>Hi my name is sorour rahem, and im a frontend web developer.</p>
             <SocialIcon/>
         </div>
         <div className='flex flex-1 relative'>

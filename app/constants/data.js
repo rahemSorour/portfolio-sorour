@@ -1,8 +1,8 @@
 import {HiHome,HiMiniRectangleGroup,HiRectangleStack,HiEnvelope} from "react-icons/hi2";
 import { IoMdChatboxes } from "react-icons/io";
 import { FaUser } from "react-icons/fa";
-import charity from "public/charity.png";
-import rottenpotato from 'public/rottenpotato.png';
+// import charity from '@/public/charity'
+// import rottenpotato from '@/public/rotenpotato'
 
 export const navData=[
     {name:"home",path:"/",icon: <HiHome/>},
@@ -20,39 +20,32 @@ export const workData={
     //     {name:"alibabalite",url:"/https://github.com/202306-NEA-DZ-FEW/e-commerce-project-alibabalite",image:{rottenpotato}},
     //     {name:"madlibs",url:"/https://github.com/202306-NEA-DZ-FEW/madlibs-404-brain-not-found",image:{rottenpotato}},
     // ],
-   slides: [
-        {
-          images: [
-            {
-              title: 'rotenpotato',
-              url:charity
-            },
-            {
-              title: "charity",
-              url: rottenpotato,
-            },
-            // {
-            //   title: "alibabalite",
-            //   path: rottenpotato,
-            // },
-            // {
-            //   title: "madlibs",
-            //   path: rottenpotato,
-            // },
+  //  slides: [
+  //       {
+  //         images: [
+  //           {
+  //             title: 'rotenpotato',
+  //             url:charity
+  //           },
+  //           {
+  //             title: "charity",
+  //             url: rottenpotato,
+  //           },
+           
 
-          ],
-        },
-        {
-          images: [
-            {
-              title: "alibabalite",
-              path: rottenpotato,
-            },
-            {
-              title: "madlibs",
-              path: rottenpotato,
-            },
-          ],
-        }
-      ]
+  //         ],
+  //       },
+  //       {
+  //         images: [
+  //           {
+  //             title: "alibabalite",
+  //             url: rottenpotato,
+  //           },
+  //           {
+  //             title: "madlibs",
+  //             url: rottenpotato,
+  //           },
+  //         ],
+  //       }
+  //     ]
 }
