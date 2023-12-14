@@ -1,3 +1,4 @@
+"use client"
 import { navData } from '@/app/constants/data'; 
 import React from 'react';
 import Link from 'next/link';

@@ -7,14 +7,14 @@ module.exports = {
   ],
   theme: {
     extend: {
-      // backgroundImage: {
-      //   'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-      //   'gradient-conic':
-      //     'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-      // },
+      container: {
+        padding: {
+          DEFAULT: '15px',
+        }
+      },
       colors:{
-        primary:'#121212',
-        secondary:'#dc143c',
+        primary:'#0a0111',
+        secondary:'#e82a9c',
         tertiary:'#202020',
         white:'#EAEAEA',
         slate:{
