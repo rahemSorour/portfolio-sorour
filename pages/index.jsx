@@ -23,17 +23,18 @@ export default function Home() {
                 />
             </span>
             </h4>
-            <p className='py-2 '>Skilled in HTML, CSS, JavaScript, React, and more. Crafting vibrant, user-friendly websites and sparking innovation in every project. Lets embark on a journey of creativity! </p>
+            <div className=''><p className='py-2  '>Skilled in HTML, CSS, JavaScript, React, and more. Crafting vibrant, user-friendly websites and sparking innovation in every project. Lets embark on a journey of creativity! </p></div>
+            
             <SocialIcon/>
         </div>
         <div className='flex flexCenter flex-1 relative mb-8'>
-        <Image src={srr} alt='picture' width={360} height={360} className='w-[340px] h-[300px] absolute bottom-10'/>
-        <motion.span className='bg-gray-400 h-80 w-80 rounded-full '
+        {/* <Image src={srr} alt='picture' width={360} height={360} className='w-[340px] h-[300px] absolute bottom-10'/> */}
+        {/* <motion.span className='bg-gray-400 h-80 w-80 rounded-full '
         animate={{background:['#6a2c70'],
         transition:{duration:10, repeat:Infinity, ease:'easeInOut'}
          }}
          >
-        </motion.span>
+        </motion.span> */}
         </div>
         </div>
     </section>

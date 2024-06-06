@@ -9,7 +9,7 @@ export const navData=[
     {name:"about",path:"/about",icon: <FaUser />},
     {name:"services",path:"/services",icon: <HiMiniRectangleGroup/>},
     {name:"work",path:"/work",icon: <HiRectangleStack />},
-    // {name:"contact",path:"/contact",icon:<HiEnvelope />},
+    {name:"contact",path:"/contact",icon:<HiEnvelope />},
 ];
 
 export const workData={
